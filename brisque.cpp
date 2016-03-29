@@ -1,7 +1,7 @@
 #include "brisque.h"
 //extern "C"
 //{
-#include "bessel.h"
+//#include "bessel.h"
 #include <numeric>
 //}
 //extern double bessj( int, double );
@@ -140,7 +140,7 @@ void computeHueFeature(IplImage *orig_h,vector<double>& featurevector){
         for(int i=0;i<vert_hueHist.size();i++){
              //cout<<vert_hueHist[i]<<" ";
              //cout<<bessj(1,vert_hueHist[i])<<endl;
-             cout<<bessj(1,i)<<" ";
+             /* cout<<bessj(1,i)<<" "; */
         }
         cout<<endl;
         double hue_entropy = computerHueHistEntropy(vert_hueHist);

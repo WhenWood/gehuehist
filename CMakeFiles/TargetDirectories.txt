@@ -1,1 +1,1 @@
-/home/tj/IQA/brisque/CMakeFiles/brisquequality.dir
+/Users/whenwood/Desktop/gehuehist/CMakeFiles/brisquequality.dir
