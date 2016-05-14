@@ -141,9 +141,32 @@ CMakeFiles/brisquequality.dir/brisque.cpp.o.provides: CMakeFiles/brisquequality.
 
 CMakeFiles/brisquequality.dir/brisque.cpp.o.provides.build: CMakeFiles/brisquequality.dir/brisque.cpp.o
 
+CMakeFiles/brisquequality.dir/bessel.cpp.o: CMakeFiles/brisquequality.dir/flags.make
+CMakeFiles/brisquequality.dir/bessel.cpp.o: bessel.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/whenwood/Desktop/gehuehist/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brisquequality.dir/bessel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/brisquequality.dir/bessel.cpp.o -c /Users/whenwood/Desktop/gehuehist/bessel.cpp
+
+CMakeFiles/brisquequality.dir/bessel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brisquequality.dir/bessel.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/whenwood/Desktop/gehuehist/bessel.cpp > CMakeFiles/brisquequality.dir/bessel.cpp.i
+
+CMakeFiles/brisquequality.dir/bessel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brisquequality.dir/bessel.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/whenwood/Desktop/gehuehist/bessel.cpp -o CMakeFiles/brisquequality.dir/bessel.cpp.s
+
+CMakeFiles/brisquequality.dir/bessel.cpp.o.requires:
+.PHONY : CMakeFiles/brisquequality.dir/bessel.cpp.o.requires
+
+CMakeFiles/brisquequality.dir/bessel.cpp.o.provides: CMakeFiles/brisquequality.dir/bessel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/bessel.cpp.o.provides.build
+.PHONY : CMakeFiles/brisquequality.dir/bessel.cpp.o.provides
+
+CMakeFiles/brisquequality.dir/bessel.cpp.o.provides.build: CMakeFiles/brisquequality.dir/bessel.cpp.o
+
 CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o: CMakeFiles/brisquequality.dir/flags.make
 CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o: libsvm/svm.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/whenwood/Desktop/gehuehist/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/whenwood/Desktop/gehuehist/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o -c /Users/whenwood/Desktop/gehuehist/libsvm/svm.cpp
 
@@ -164,13 +187,38 @@ CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o.provides: CMakeFiles/brisquequali
 
 CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o.provides.build: CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o
 
+CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o: CMakeFiles/brisquequality.dir/flags.make
+CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o: gravity/gravity.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/whenwood/Desktop/gehuehist/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o -c /Users/whenwood/Desktop/gehuehist/gravity/gravity.cpp
+
+CMakeFiles/brisquequality.dir/gravity/gravity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/brisquequality.dir/gravity/gravity.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/whenwood/Desktop/gehuehist/gravity/gravity.cpp > CMakeFiles/brisquequality.dir/gravity/gravity.cpp.i
+
+CMakeFiles/brisquequality.dir/gravity/gravity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/brisquequality.dir/gravity/gravity.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/whenwood/Desktop/gehuehist/gravity/gravity.cpp -o CMakeFiles/brisquequality.dir/gravity/gravity.cpp.s
+
+CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o.requires:
+.PHONY : CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o.requires
+
+CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o.provides: CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o.requires
+	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o.provides.build
+.PHONY : CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o.provides
+
+CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o.provides.build: CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o
+
 # Object files for target brisquequality
 brisquequality_OBJECTS = \
 "CMakeFiles/brisquequality.dir/main.cpp.o" \
 "CMakeFiles/brisquequality.dir/trainModel.cpp.o" \
 "CMakeFiles/brisquequality.dir/computescore.cpp.o" \
 "CMakeFiles/brisquequality.dir/brisque.cpp.o" \
-"CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o"
+"CMakeFiles/brisquequality.dir/bessel.cpp.o" \
+"CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o" \
+"CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o"
 
 # External object files for target brisquequality
 brisquequality_EXTERNAL_OBJECTS =
@@ -179,7 +227,9 @@ brisquequality: CMakeFiles/brisquequality.dir/main.cpp.o
 brisquequality: CMakeFiles/brisquequality.dir/trainModel.cpp.o
 brisquequality: CMakeFiles/brisquequality.dir/computescore.cpp.o
 brisquequality: CMakeFiles/brisquequality.dir/brisque.cpp.o
+brisquequality: CMakeFiles/brisquequality.dir/bessel.cpp.o
 brisquequality: CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o
+brisquequality: CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o
 brisquequality: CMakeFiles/brisquequality.dir/build.make
 brisquequality: /usr/local/lib/libopencv_ts.a
 brisquequality: /usr/local/lib/libopencv_superres.2.4.11.dylib
@@ -212,7 +262,9 @@ CMakeFiles/brisquequality.dir/requires: CMakeFiles/brisquequality.dir/main.cpp.o
 CMakeFiles/brisquequality.dir/requires: CMakeFiles/brisquequality.dir/trainModel.cpp.o.requires
 CMakeFiles/brisquequality.dir/requires: CMakeFiles/brisquequality.dir/computescore.cpp.o.requires
 CMakeFiles/brisquequality.dir/requires: CMakeFiles/brisquequality.dir/brisque.cpp.o.requires
+CMakeFiles/brisquequality.dir/requires: CMakeFiles/brisquequality.dir/bessel.cpp.o.requires
 CMakeFiles/brisquequality.dir/requires: CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o.requires
+CMakeFiles/brisquequality.dir/requires: CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o.requires
 .PHONY : CMakeFiles/brisquequality.dir/requires
 
 CMakeFiles/brisquequality.dir/clean:

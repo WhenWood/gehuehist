@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/whenwood/Desktop/gehuehist/bessel.cpp" "/Users/whenwood/Desktop/gehuehist/CMakeFiles/brisquequality.dir/bessel.cpp.o"
   "/Users/whenwood/Desktop/gehuehist/brisque.cpp" "/Users/whenwood/Desktop/gehuehist/CMakeFiles/brisquequality.dir/brisque.cpp.o"
   "/Users/whenwood/Desktop/gehuehist/computescore.cpp" "/Users/whenwood/Desktop/gehuehist/CMakeFiles/brisquequality.dir/computescore.cpp.o"
+  "/Users/whenwood/Desktop/gehuehist/gravity/gravity.cpp" "/Users/whenwood/Desktop/gehuehist/CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o"
   "/Users/whenwood/Desktop/gehuehist/libsvm/svm.cpp" "/Users/whenwood/Desktop/gehuehist/CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o"
   "/Users/whenwood/Desktop/gehuehist/main.cpp" "/Users/whenwood/Desktop/gehuehist/CMakeFiles/brisquequality.dir/main.cpp.o"
   "/Users/whenwood/Desktop/gehuehist/trainModel.cpp" "/Users/whenwood/Desktop/gehuehist/CMakeFiles/brisquequality.dir/trainModel.cpp.o"
@@ -25,6 +27,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include/opencv"
   "/usr/local/include"
+  "gravity"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

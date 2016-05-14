@@ -15,6 +15,7 @@ for x in range(10,100):
             image_info = map(lambda x : x.split(' '),lines)
             fp.close()
         os.system('rm live_test_score.txt')
+        print image_info
         cmds = map(lambda x : './brisquequality -im '+x[0]+' >> live_test_score.txt',image_info)
         for i,cm in enumerate(cmds):
             print i

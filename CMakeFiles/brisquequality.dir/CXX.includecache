@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/Users/whenwood/Desktop/gehuehist/bessel.cpp
+math.h
+/Users/whenwood/Desktop/gehuehist/math.h
+bessel.h
+/Users/whenwood/Desktop/gehuehist/bessel.h
+
+/Users/whenwood/Desktop/gehuehist/bessel.h
+
 /Users/whenwood/Desktop/gehuehist/brisque.cpp
 brisque.h
 /Users/whenwood/Desktop/gehuehist/brisque.h
 numeric
 -
+gravity/gravity.h
+/Users/whenwood/Desktop/gehuehist/gravity/gravity.h
 
 /Users/whenwood/Desktop/gehuehist/brisque.h
 stdio.h
@@ -29,7 +39,9 @@ highgui.h
 -
 vector
 -
-string.h
+cstring
+-
+string
 -
 
 /Users/whenwood/Desktop/gehuehist/computescore.cpp
@@ -37,6 +49,16 @@ brisque.h
 /Users/whenwood/Desktop/gehuehist/brisque.h
 libsvm/svm.h
 /Users/whenwood/Desktop/gehuehist/libsvm/svm.h
+
+/Users/whenwood/Desktop/gehuehist/gravity/gravity.cpp
+gravity.h
+/Users/whenwood/Desktop/gehuehist/gravity/gravity.h
+
+/Users/whenwood/Desktop/gehuehist/gravity/gravity.h
+vector
+-
+cmath
+-
 
 /Users/whenwood/Desktop/gehuehist/libsvm/svm.cpp
 math.h

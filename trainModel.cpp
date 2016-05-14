@@ -80,7 +80,7 @@ void trainModel(){
     cout<<"retraining..."<<endl;
 
      FILE* fid;
-    char* foldername = "/Users/ashione/Desktop/databaserelease2";
+    char* foldername = "/Users/whenwood/Downloads/databaserelease2";
     //char* foldername = "/home/tj/IQA_CNN/LIVE";
     //----------------------------------------------------
     // class is the distortion category, there are 982 images in LIVE database

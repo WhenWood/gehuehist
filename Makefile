@@ -114,6 +114,30 @@ brisquequality/fast:
 	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/build
 .PHONY : brisquequality/fast
 
+bessel.o: bessel.cpp.o
+.PHONY : bessel.o
+
+# target to build an object file
+bessel.cpp.o:
+	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/bessel.cpp.o
+.PHONY : bessel.cpp.o
+
+bessel.i: bessel.cpp.i
+.PHONY : bessel.i
+
+# target to preprocess a source file
+bessel.cpp.i:
+	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/bessel.cpp.i
+.PHONY : bessel.cpp.i
+
+bessel.s: bessel.cpp.s
+.PHONY : bessel.s
+
+# target to generate assembly for a file
+bessel.cpp.s:
+	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/bessel.cpp.s
+.PHONY : bessel.cpp.s
+
 brisque.o: brisque.cpp.o
 .PHONY : brisque.o
 
@@ -161,6 +185,30 @@ computescore.s: computescore.cpp.s
 computescore.cpp.s:
 	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/computescore.cpp.s
 .PHONY : computescore.cpp.s
+
+gravity/gravity.o: gravity/gravity.cpp.o
+.PHONY : gravity/gravity.o
+
+# target to build an object file
+gravity/gravity.cpp.o:
+	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o
+.PHONY : gravity/gravity.cpp.o
+
+gravity/gravity.i: gravity/gravity.cpp.i
+.PHONY : gravity/gravity.i
+
+# target to preprocess a source file
+gravity/gravity.cpp.i:
+	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/gravity/gravity.cpp.i
+.PHONY : gravity/gravity.cpp.i
+
+gravity/gravity.s: gravity/gravity.cpp.s
+.PHONY : gravity/gravity.s
+
+# target to generate assembly for a file
+gravity/gravity.cpp.s:
+	$(MAKE) -f CMakeFiles/brisquequality.dir/build.make CMakeFiles/brisquequality.dir/gravity/gravity.cpp.s
+.PHONY : gravity/gravity.cpp.s
 
 libsvm/svm.o: libsvm/svm.cpp.o
 .PHONY : libsvm/svm.o
@@ -243,12 +291,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... brisquequality"
+	@echo "... bessel.o"
+	@echo "... bessel.i"
+	@echo "... bessel.s"
 	@echo "... brisque.o"
 	@echo "... brisque.i"
 	@echo "... brisque.s"
 	@echo "... computescore.o"
 	@echo "... computescore.i"
 	@echo "... computescore.s"
+	@echo "... gravity/gravity.o"
+	@echo "... gravity/gravity.i"
+	@echo "... gravity/gravity.s"
 	@echo "... libsvm/svm.o"
 	@echo "... libsvm/svm.i"
 	@echo "... libsvm/svm.s"

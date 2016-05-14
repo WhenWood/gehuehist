@@ -3,7 +3,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/brisquequality.dir/trainModel.cpp.o"
   "CMakeFiles/brisquequality.dir/computescore.cpp.o"
   "CMakeFiles/brisquequality.dir/brisque.cpp.o"
+  "CMakeFiles/brisquequality.dir/bessel.cpp.o"
   "CMakeFiles/brisquequality.dir/libsvm/svm.cpp.o"
+  "CMakeFiles/brisquequality.dir/gravity/gravity.cpp.o"
   "brisquequality.pdb"
   "brisquequality"
 )
